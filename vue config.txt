@@ -1,0 +1,75 @@
+1. creacion proyecto
+//////////////////////////////////////////////////////////////////////
+
+// npm install -g yarn 
+// https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
+// ejecutar yarn serve
+// instalar en proyecto yarn install
+
+1. vue create 03-fundamentos
+
+2. manually (la ultima)
+
+3. marcamos choose version, babel y test
+
+4. version 3x
+
+5. tipo de testing jest
+
+6. Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
+
+7. Save this as a preset for future projects? (y/N) n 
+
+8. y empieza a descargar las configuraciones. no mezclar npm y yarn
+
+9. poner estas instrucciones  $ cd 03-fundamentos
+ $ npm run serve
+
+10.  donde me crea la App
+
+App running at:
+  - Local:   http://localhost:8081/
+  - Network: http://192.168.1.39:8081/
+
+/////////////////////////////////////////////////////////////////////
+2. los archivos que genera
+//////////////////////////////////////////////////////////////////////
+
+1. node modules,es solo de lectura, no se suelen hacer modificaciones
+
+2. pesa mucho pero porque tiene muchos modulos para pruebas que luego no se suben
+
+3. public, fav y html que raramente se tenga que modificar, la instruccion no script es por si el navegador del clietne no tiene activado javascript
+
+4. tests para las pruebas. spec.js son archivos que no llegan a produccion solo son para pruebas de componentes
+
+5. gitignore, lo que se ignora y no se sube a github
+
+6. jest para pruebas, practicamente no hay que tocarlo, dejarlo por defecto
+
+7. package.json, no se suele tocar, se modifica a traves de la consola, algun script se puede tocar
+hay depencias y devdepencias, eso no llega a produccion, son para desarrollo
+
+8. en readme tienes los comandos necesarios para que la app funcione
+
+9. package-lock.json lo genera npm para saber como lo construyo, en yarn es yarn lock
+
+////////////////////////////////////////////////////////////
+3. scr
+///////////////////////////////////////////////////////////
+
+1. assets , logo vue
+
+2. components, helloworld vue, que es la pagina de inicio de vue, la que genera al crear el proyecto, se borra
+app.vue es el wellcome y se borra tabmien, borrarloo
+
+
+3. app vue , es el html de la pagina de inicio, se puede modificar
+
+4. main js, lo que hace es montar lo que hay js en app del html del app vue, quitar compoentes y hello world
+
+
+///////////////////////////////////////////////////////////
+4. proyecto
+
+ 1 creamos componentes counter.vue

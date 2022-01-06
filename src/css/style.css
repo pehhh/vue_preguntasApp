@@ -1,0 +1,4 @@
+/* 7. para que esten de manera global lo importamos al main */
+html,body{
+    background-color: black;
+}
